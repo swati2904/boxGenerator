@@ -1,0 +1,77 @@
+*{
+    animation-name: color;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes color{
+     0%{
+         background-color: rgb(255, 194, 204);
+     }
+     50%{
+        background-color: wheat;
+     }
+     100%{
+       background-color: rgb(255, 195, 167);
+     }
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: solid black;
+    position: absolute;
+    margin: 10px;
+    background-color: powderblue;
+    border-radius: 10px;
+    
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+.heading{
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-style: italic;
+    text-shadow: 3px 3px powderblue;
+    text-align: center;
+    transition-property: all;
+    transform: rotate(360deg);
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+   
+
+}
+
+input[type="text"] {
+    border-radius: 2px ;
+    background-color: whitesmoke;
+   
+}
+#theBoxes{
+    border-radius: 8px;
+    background-color: rgb(130, 151, 155);
+    font-weight: bolder;
+}
+
+.myDiv{
+    height: 50px;
+    width: 50px;
+    border: 2px solid rgb(84, 185, 199);
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 50%;
+}
